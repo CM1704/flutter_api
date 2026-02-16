@@ -31,5 +31,5 @@ app.get('/', (req, res) => {
 });
 
 // Aquí se incluirán las rutas de la API (CRUD)
-const itemRoutes = require('./routes/itemRoutes');
+const itemRoutes = require('./routes/ItemRoutes');
 app.use('/api/items', itemRoutes);
